@@ -1,0 +1,1 @@
+cmd='/home/mahran/cmake-3.13.4-Linux-x86_64/bin/cmake;-P;/home/mahran/build/Wrapping/Generators/SwigInterface/swig_configure_step.cmake'

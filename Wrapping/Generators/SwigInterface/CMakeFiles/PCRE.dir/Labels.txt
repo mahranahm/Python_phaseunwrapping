@@ -1,0 +1,13 @@
+# Target labels
+ PCRE
+# Source files and their labels
+/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/PCRE
+/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/PCRE.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/PCRE-complete.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE-prefix/src/PCRE-stamp/PCRE-install.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE-prefix/src/PCRE-stamp/PCRE-mkdir.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE-prefix/src/PCRE-stamp/PCRE-download.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE-prefix/src/PCRE-stamp/PCRE-update.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE-prefix/src/PCRE-stamp/PCRE-patch.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE-prefix/src/PCRE-stamp/PCRE-configure.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE-prefix/src/PCRE-stamp/PCRE-build.rule

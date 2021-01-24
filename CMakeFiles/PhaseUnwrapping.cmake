@@ -1,0 +1,13 @@
+set(PhaseUnwrapping_LOADED 1)
+set(PhaseUnwrapping_ENABLE_SHARED "1")
+set(PhaseUnwrapping_DEPENDS "ITKCommon;ITKFFT;ITKImageIntensity;ITKImageNoise;ITKThresholding")
+set(PhaseUnwrapping_PUBLIC_DEPENDS "ITKCommon;ITKFFT;ITKImageIntensity;ITKImageNoise;ITKThresholding")
+set(PhaseUnwrapping_TRANSITIVE_DEPENDS "ITKCommon;ITKFFT;ITKImageIntensity;ITKImageNoise;ITKThresholding")
+set(PhaseUnwrapping_PRIVATE_DEPENDS "")
+set(PhaseUnwrapping_LIBRARIES "PhaseUnwrapping")
+set(PhaseUnwrapping_INCLUDE_DIRS "${ITK_INSTALL_PREFIX}/include/ITK-5.2")
+set(PhaseUnwrapping_LIBRARY_DIRS "")
+set(PhaseUnwrapping_RUNTIME_LIBRARY_DIRS "${ITK_INSTALL_PREFIX}/lib")
+set(PhaseUnwrapping_TARGETS_FILE "${ITK_INSTALL_PREFIX}/lib/cmake/ITK-5.2/Modules/Targets/PhaseUnwrappingTargets.cmake")
+set(PhaseUnwrapping_FACTORY_NAMES "")
+

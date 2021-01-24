@@ -1,0 +1,13 @@
+# Target labels
+ castxml
+# Source files and their labels
+/home/mahran/build/Wrapping/Generators/CastXML/CMakeFiles/castxml
+/home/mahran/build/Wrapping/Generators/CastXML/CMakeFiles/castxml.rule
+/home/mahran/build/Wrapping/Generators/CastXML/CMakeFiles/castxml-complete.rule
+/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-install.rule
+/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-mkdir.rule
+/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-download.rule
+/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-update.rule
+/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-patch.rule
+/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-configure.rule
+/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-build.rule

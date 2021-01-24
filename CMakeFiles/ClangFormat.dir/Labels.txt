@@ -1,0 +1,13 @@
+# Target labels
+ ClangFormat
+# Source files and their labels
+/home/mahran/build/CMakeFiles/ClangFormat
+/home/mahran/build/CMakeFiles/ClangFormat.rule
+/home/mahran/build/CMakeFiles/ClangFormat-complete.rule
+/home/mahran/build/ClangFormat-prefix/src/ClangFormat-stamp/ClangFormat-install.rule
+/home/mahran/build/ClangFormat-prefix/src/ClangFormat-stamp/ClangFormat-mkdir.rule
+/home/mahran/build/ClangFormat-prefix/src/ClangFormat-stamp/ClangFormat-download.rule
+/home/mahran/build/ClangFormat-prefix/src/ClangFormat-stamp/ClangFormat-update.rule
+/home/mahran/build/ClangFormat-prefix/src/ClangFormat-stamp/ClangFormat-patch.rule
+/home/mahran/build/ClangFormat-prefix/src/ClangFormat-stamp/ClangFormat-configure.rule
+/home/mahran/build/ClangFormat-prefix/src/ClangFormat-stamp/ClangFormat-build.rule

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/CMakeFiles/castxml"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/CMakeFiles/castxml.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/CMakeFiles/castxml-complete.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-install.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-mkdir.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-download.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-update.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-patch.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-configure.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/CastXML/castxml-prefix/src/castxml-stamp/castxml-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"castxml"
+		],
+		"name" : "castxml"
+	}
+}

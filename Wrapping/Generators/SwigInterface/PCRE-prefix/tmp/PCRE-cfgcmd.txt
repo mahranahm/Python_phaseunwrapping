@@ -1,0 +1,1 @@
+cmd='env;AR=/usr/bin/ar;CC= /usr/bin/cc;CFLAGS=   -O3 -DNDEBUG -w;LDFLAGS=;LIBS=;CPPFLAGS=;CXX= /usr/bin/c++;CXXFLAGS=  -msse2  -msse2 -O3 -DNDEBUG -w;CPP=;CXXPP=;../PCRE/configure;--prefix=/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE;--enable-shared=no'

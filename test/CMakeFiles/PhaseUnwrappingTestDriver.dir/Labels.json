@@ -1,0 +1,52 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mahran/build/test/PhaseUnwrappingTestDriver.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkDCTImageFilterTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkDCTPhaseUnwrappingImageFilterTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkIndexValuePairTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkItohPhaseUnwrappingImageFilterTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkDCTPoissonSolverImageFilterTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkPhaseDerivativeVarianceImageFilterTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkPhaseExamplesImageSourceTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkPhaseQualityImageFilterTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkPhaseResidueImageFilterTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkWrappedPhaseLaplacianImageFilterTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkWrapPhaseFunctorTest.cxx"
+		},
+		{
+			"file" : "/home/mahran/ITKPhase/test/itkWrapPhaseImageFilterTest.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhaseUnwrapping"
+		],
+		"name" : "PhaseUnwrappingTestDriver"
+	}
+}

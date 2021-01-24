@@ -1,0 +1,13 @@
+# Target labels
+ swig
+# Source files and their labels
+/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/swig
+/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/swig.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/swig-complete.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-install.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-mkdir.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-download.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-update.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-patch.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-configure.rule
+/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-build.rule

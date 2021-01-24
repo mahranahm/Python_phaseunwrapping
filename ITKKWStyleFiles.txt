@@ -1,0 +1,6 @@
+/home/mahran/ITKPhase/include/itk*.h
+/home/mahran/ITKPhase/include/itk*.hxx
+/home/mahran/ITKPhase/src/*.cxx
+/home/mahran/ITKPhase/src/*.h
+/home/mahran/ITKPhase/src/*.hxx
+/home/mahran/ITKPhase/test/*.cxx

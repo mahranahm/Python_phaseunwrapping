@@ -1,0 +1,252 @@
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for gcc...  /usr/bin/cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether  /usr/bin/cc accepts -g... yes
+checking for  /usr/bin/cc option to accept ISO C89... none needed
+checking whether  /usr/bin/cc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of  /usr/bin/cc... gcc3
+checking whether we are using the GNU C++ compiler... yes
+checking whether  /usr/bin/c++ accepts -g... yes
+checking dependency style of  /usr/bin/c++... gcc3
+checking maximum warning verbosity option... -Wall -W -ansi -pedantic for C++ -Wall -W -ansi -pedantic for C
+checking how to run the C preprocessor...  /usr/bin/cc -E
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for popen... yes
+checking whether to enable PCRE support... yes
+checking whether to use local PCRE... no
+checking for a sed that does not truncate output... /bin/sed
+checking for pcre-config... /home/mahran/build/Wrapping/Generators/SwigInterface/PCRE/bin/pcre-config
+checking whether to enable ccache-swig... yes
+
+Checking packages required for SWIG developers.
+Note : None of the following packages are required for users to compile and install SWIG from the distributed tarball
+
+checking for bison... BISON_EXECUTABLE-NOTFOUND
+
+Checking for installed target languages and other information in order to compile and run
+the examples and test-suite invoked by 'make check'.
+Note : None of the following packages are required for users to compile and install SWIG from the distributed tarball
+
+checking for boostlib >=  (102000)... configure: We could not detect the boost libraries (version  or higher). If you have a staged boost library (still not installed) please specify $BOOST_ROOT in your environment and do not give a PATH to --with-boost option.  If you are sure you have boost installed, then check your version number looking in <boost/version.hpp>. See http://randspringer.de/boost for more documentation.
+checking SO... .so
+checking LDSHARED...  /usr/bin/cc -shared
+checking CXXSHARED...  /usr/bin/cc -shared
+checking TRYLINKINGWITHCXX... CXXSHARED=  /usr/bin/c++ -shared 
+checking CCSHARED... -fpic
+checking RPATH... -Xlinker -rpath $(exec_prefix)/lib -Xlinker -rpath .
+checking LINKFORSHARED... -Xlinker -export-dynamic
+checking PLATCFLAGS... 
+checking whether to enable C++11 testing... no
+checking if compiler supports pre-compiled headers... yes
+checking for dlopen in -ldl... yes
+checking for shl_load in -ldld... no
+checking for library containing t_open... no
+checking for library containing gethostbyname... none required
+checking for library containing socket... none required
+checking for swill_init in -lswill... no
+checking for main in -lieee... no
+checking for crypt in -lcrypt... yes
+checking for pkg-config... pkg-config
+checking for Tcl configuration... no
+checking for Tcl header files... not found
+checking for Tcl library... not found
+checking for python... python
+checking for python major version number... 2
+checking for Python os.name... posix
+checking for Python path separator... /
+checking for Python prefix... /usr
+checking for Python exec-prefix... /usr
+checking for Python version... python2.7
+checking for Python lib dir... lib
+checking for Python header files... -I/usr/include/python2.7 -I/usr/lib/python2.7/config
+checking for Python library directory... Not found
+checking for Python library... -lpython2.7
+checking for python3... python3
+checking for python3-config... python3-config
+checking for python3 major version number... 3
+checking for Python 3.x os.name... posix
+checking for Python 3.x path separator... /
+checking for Python 3.x prefix... /usr
+checking for Python 3.x exec-prefix... /usr
+checking for Python 3.x version... python3.6
+checking for Python 3.x lib dir... lib
+checking for Python 3.x header files... -I/usr/include/python3.6m -I/usr/include/python3.6m
+checking for Python 3.x library directory... Not found
+checking for Python 3.x library... -lpython3.6
+checking for pycodestyle... no
+checking for 2to3-3... no
+checking for 2to3... no
+checking for 2to3.py... Not found
+checking for perl... perl
+checking for Perl5 header files... /usr/lib/x86_64-linux-gnu/perl/5.26/CORE
+checking for Perl5 library... perl
+checking for Perl5 ccflags... -D_REENTRANT -D_GNU_SOURCE -DDEBIAN -fwrapv -fno-strict-aliasing -pipe -I/usr/local/include -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+checking for Perl5 ccdlflags... -Wl,-E
+checking for Perl5 cccdlflags... -fPIC
+checking for Perl5 ldflags...  -fstack-protector-strong -L/usr/local/lib
+checking for Perl5 Test::More module... found
+checking for octave-cli... no
+checking for scilab... no
+checking for java JDK... no (JAVA_HOME is not defined)
+checking for java... no
+checking for kaffe... no
+checking for guavac... no
+checking for javac... no
+checking for java include file jni.h... not found
+checking for nodejs... no
+checking for node... node
+checking for node-gyp... no
+checking for JavaScriptCore/JavaScript.h... not found
+checking for JavaScriptCore/Webkit library... not found
+checking for V8 Javascript v8.h... not found
+checking for V8 Javascript library... not found
+checking for android... no
+checking for adb... no
+checking for ant... no
+checking for ndk-build... no
+checking for guile-config... no
+checking for mzscheme... no
+checking for mzc... no
+checking for ruby... ruby
+checking for Ruby header files... could not locate ruby.h
+checking for Ruby library... not found... using /usr/include/ruby-2.5.0
+checking for php7.3... no
+checking for php7.2... no
+checking for php7.1... no
+checking for php7.0... no
+checking for php... no
+checking for ocamlc... no
+checking for camlp4... no
+checking for ocamldlgen... no
+checking for ocamlfind... no
+checking for ocamlmktop... no
+checking for mono-csc... no
+checking for gmcs... no
+checking for mcs... no
+checking for cscc... no
+checking for lua5.4... no
+checking for lua5.3... no
+checking for lua5.2... no
+checking for lua5.1... no
+checking for lua... no
+checking for R... no
+checking for go... no
+checking for gccgo... no
+checking for dmd... no
+checking for ldmd... no
+checking for gdmd... no
+checking for dmd... no
+checking for gdmd... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating swig.spec
+config.status: creating Examples/Makefile
+config.status: creating Examples/d/example.mk
+config.status: creating Examples/xml/Makefile
+config.status: creating Examples/test-suite/errors/Makefile
+config.status: creating Examples/test-suite/csharp/Makefile
+config.status: creating Examples/test-suite/d/Makefile
+config.status: creating Examples/test-suite/guile/Makefile
+config.status: creating Examples/test-suite/java/Makefile
+config.status: creating Examples/test-suite/javascript/Makefile
+config.status: creating Examples/test-suite/mzscheme/Makefile
+config.status: creating Examples/test-suite/ocaml/Makefile
+config.status: creating Examples/test-suite/octave/Makefile
+config.status: creating Examples/test-suite/perl5/Makefile
+config.status: creating Examples/test-suite/php/Makefile
+config.status: creating Examples/test-suite/python/Makefile
+config.status: creating Examples/test-suite/ruby/Makefile
+config.status: creating Examples/test-suite/scilab/Makefile
+config.status: creating Examples/test-suite/tcl/Makefile
+config.status: creating Examples/test-suite/lua/Makefile
+config.status: creating Examples/test-suite/r/Makefile
+config.status: creating Examples/test-suite/go/Makefile
+config.status: creating Source/Makefile
+config.status: creating Tools/javascript/Makefile
+config.status: creating preinst-swig
+config.status: creating CCache/ccache_swig_config.h
+config.status: creating Source/Include/swigconfig.h
+config.status: executing depfiles commands
+config.status: executing Examples commands
+config.status: generating Examples build tree
+=== configuring in CCache (/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-build/CCache)
+configure: running /bin/bash ../../swig/CCache/configure --disable-option-checking '--prefix=/home/mahran/build/Wrapping/Generators/SwigInterface/swig'  '--with-pcre-prefix=/home/mahran/build/Wrapping/Generators/SwigInterface/PCRE' 'CC= /usr/bin/cc' 'CFLAGS=   -O3 -DNDEBUG -w' 'CXX= /usr/bin/c++' 'CXXFLAGS=  -msse2  -msse2 -O3 -DNDEBUG -w' 'YACC=BISON_EXECUTABLE-NOTFOUND' --cache-file=/dev/null --srcdir=../../swig/CCache
+configure: Configuring ccache
+checking for gcc...  /usr/bin/cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether  /usr/bin/cc accepts -g... yes
+checking for  /usr/bin/cc option to accept ISO C89... none needed
+checking how to run the C preprocessor...  /usr/bin/cc -E
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking for strings.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for realpath... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for vasprintf... yes
+checking for asprintf... yes
+checking for mkstemp... yes
+checking for gethostname... yes
+checking for getpwuid... yes
+checking for utimes... yes
+checking for compar_fn_t in stdlib.h... yes
+checking for C99 vsnprintf... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzdopen in -lz... yes
+configure: creating ./config.status
+config.status: creating config_win32.h
+config.status: creating Makefile
+config.status: creating config.h
+
+The SWIG test-suite and examples are configured for the following languages:
+perl5 python 
+

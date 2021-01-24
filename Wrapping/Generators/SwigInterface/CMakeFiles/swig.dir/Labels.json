@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/swig"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/swig.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/CMakeFiles/swig-complete.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-install.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-mkdir.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-download.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-update.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-patch.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-configure.rule"
+		},
+		{
+			"file" : "/home/mahran/build/Wrapping/Generators/SwigInterface/swig-prefix/src/swig-stamp/swig-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"swig"
+		],
+		"name" : "swig"
+	}
+}

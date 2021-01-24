@@ -1,0 +1,30 @@
+# DO NOT EDIT: instead edit ../../../../swig/Examples/ruby/import_template/Makefile
+# and run (cd ../../../ && ./config.status) to regenerate
+TOP_BUILDDIR_TO_TOP_SRCDIR = ../swig/
+SRCDIR = ../../../../swig/Examples/ruby/import_template/
+
+TOP        = ../..
+SWIGEXE    = $(TOP)/../swig
+SWIG_LIB_DIR = $(TOP)/../$(TOP_BUILDDIR_TO_TOP_SRCDIR)Lib
+SWIGOPT    =
+LIBS       =
+
+check: build
+	$(MAKE) -f $(TOP)/Makefile SRCDIR='$(SRCDIR)' ruby_run
+
+build:
+	$(MAKE) -f $(TOP)/Makefile SRCDIR='$(SRCDIR)' \
+	SWIG_LIB_DIR='$(SWIG_LIB_DIR)' SWIGEXE='$(SWIGEXE)' \
+	SWIGOPT='$(SWIGOPT)' LIBS='$(LIBS)' TARGET='base' INTERFACE='base.i' ruby_cpp
+	$(MAKE) -f $(TOP)/Makefile SRCDIR='$(SRCDIR)' \
+	SWIG_LIB_DIR='$(SWIG_LIB_DIR)' SWIGEXE='$(SWIGEXE)' \
+	SWIGOPT='$(SWIGOPT)' LIBS='$(LIBS)' TARGET='foo' INTERFACE='foo.i' ruby_cpp
+	$(MAKE) -f $(TOP)/Makefile SRCDIR='$(SRCDIR)' \
+	SWIG_LIB_DIR='$(SWIG_LIB_DIR)' SWIGEXE='$(SWIGEXE)' \
+	SWIGOPT='$(SWIGOPT)' LIBS='$(LIBS)' TARGET='bar' INTERFACE='bar.i' ruby_cpp
+	$(MAKE) -f $(TOP)/Makefile SRCDIR='$(SRCDIR)' \
+	SWIG_LIB_DIR='$(SWIG_LIB_DIR)' SWIGEXE='$(SWIGEXE)' \
+	SWIGOPT='$(SWIGOPT)' LIBS='$(LIBS)' TARGET='spam' INTERFACE='spam.i' ruby_cpp
+
+clean:
+	$(MAKE) -f $(TOP)/Makefile SRCDIR='$(SRCDIR)' ruby_clean
